@@ -1,0 +1,277 @@
+h1 {color:blue;
+}
+
+  
+/* this is my footer */
+/* this is my main are */
+main {
+  height: 100%;
+  width: 100%;
+}
+
+/* this is my comment */
+.majorbox {
+  box-sizing: border-box;
+  background-color: green;
+  width: 100%;
+  padding:50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.post {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+.post img{
+  width: 100%;
+
+}
+ textarea {
+  width: 100%;
+   height: 100px;
+}
+.top-ten {
+  margin:0;
+  padding: 0;
+}
+.top-ten li {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto 1fr auto;
+  border: 1px solid gray;
+  padding: 6px; 
+  background-color: antiquewhite;
+  font-size: 25px;  
+}
+.top-ten li:first-child {
+  background-color: gold;
+}
+.top-ten li:nth-child(2) {
+  background-color: silver;
+}
+.top-ten li:nth-child(3) {
+  background-color: #cd7f32;
+}
+
+.details {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  
+  
+}
+.details div:first-child img { 
+  height: 100%;
+  object-fit: cover;
+}
+
+.rate {
+  height: 5%;
+  width: 40%;
+  background-color: darkgray;
+}
+
+html, body { margin: 0; 
+  padding: 0;
+  height: 100%;
+}
+img {
+  width: 98%;
+  padding: 1%;
+}
+/* this is my Nav Styles */
+nav {
+  display: grid;
+  grid-template-columns:auto 1fr auto; 
+  background-color: gray;
+  padding: 20px;
+}
+nav ul { 
+  margin: 0; 
+  padding: 0; 
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+}
+.logo { 
+  color: honeydew;
+}
+nav ul li a {
+  color: honeydew;
+  padding: 10px;
+  text-decoration: none;
+}
+.player-name { 
+  color: honeydew;
+  padding: 10px;
+  text-decoration: none;    
+}
+nav ul li a:hover {
+  background-color: black;
+}
+main {
+  height: 100%;
+}
+/* this is my footer */
+footer div {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  background-color: gray;
+  padding: 20px;
+}
+footer div ul { 
+  margin: 0; padding: 0; text-align: right;
+}
+footer div ul li {
+  display: inline-block;
+}
+
+footer .contact-us { 
+  color: honeydew;
+  padding: 10px;
+  text-decoration: none;
+}
+footer .copy-right { 
+  color: honeydew;
+  padding: 10px;
+  text-decoration: none; 
+}
+footer div ul li a:hover {
+  background-color: black;
+}
+.homepage-container{
+  min-height: 100%;
+  max-width: 900px;
+  margin:auto;
+  background-color: blue;
+}
+
+.leader-box {
+  background-color: black;
+  width: 100%;
+}
+.leader-box h2 {
+  color: blanchedalmond;
+}
+.little-box {
+  background-color: coral;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.leader-newsfeed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+}
+.post {
+  background-color: yellowgreen;
+  width: 100%;
+  height: 100%;
+}
+
+
+.post img {
+  width: 100%;
+}
+.comment-section {
+  padding: 30px;
+  background-color: gray;
+}
+.game-details { 
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+} 
+textarea {
+  width:100%;
+}
+.title{
+  margin-top: 0%;
+}
+.friends-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+.friends-left {
+  background-color: #333333;
+}
+
+.friends-middle {
+  background-color: #5B5B5B;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+.friends-stories {
+  background-color: #C4C4C4;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+.stories-pictures {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 1fr;
+}
+
+.user-story {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.story-img {
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  background-color: red;
+}
+
+
+.friends-online {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: #5b5b5b;
+}
+
+.friends-right {
+  background-color: #333333;
+}
+
+.user-friend {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.friend-img-online {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width:100%;
+}
+
+.friend-img {
+  height: 75%;
+  width: 50%;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
+.friend-name {
+  display: flex;
+  align-items: center;
+  height: 75%;
+  width: 60%;
+  background-color: #c4c4c4;
+}
+
+.friend-name-container {
+  display: flex;
+  align-items: center;
+}
+
